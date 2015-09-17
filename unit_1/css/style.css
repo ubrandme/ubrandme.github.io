@@ -1,0 +1,29 @@
+body {
+    margin: 30px;
+    background-color: #eaeaea;
+    font-family: helvetica;
+}
+.info {
+    display: block;
+    width: 200px;
+    height: 90vw;
+}
+.ubrandme {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.logo-grey {
+    color: #9a9a9a;
+}
+.logo-orange, a {
+    color: #e06833;
+}
+    
+p {
+    color: #888888;
+    line-height: 145%;
+}
+a:hover {
+    color: darkorange;
+}
