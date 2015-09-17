@@ -1,14 +1,16 @@
-body {
-    margin: 30px;
-    background-color: #eaeaea;
+html, body {
+    height: 100vh;
+    margin: 0px;
     font-family: helvetica;
 }
 .info {
-    display: block;
+    padding: 35px;
+    background-color: #e8e8e8;
     width: 200px;
-    height: 90vw;
+    min-height: 100%;
 }
 .ubrandme {
+    margin-top: -10px;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: -10px;
@@ -26,4 +28,8 @@ p {
 }
 a:hover {
     color: darkorange;
+}
+.links {
+    position: absolute;
+    bottom: 35px;
 }
