@@ -4,6 +4,7 @@ html, body {
     font-family: helvetica;
 }
 .info {
+    float: left;
     padding: 35px;
     background-color: #e8e8e8;
     width: 200px;
@@ -32,4 +33,16 @@ a:hover {
 .links {
     position: absolute;
     bottom: 35px;
+}
+
+.portfolio {
+    padding-top: 50px;
+}
+.fpo {
+    float: left;
+    width: 180px;
+    height: 180px;
+    background-color: #dddddd;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
