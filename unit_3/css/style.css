@@ -1,0 +1,61 @@
+
+body, h1 {
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 140%;
+}
+header, section {
+	overflow: auto;
+	height: 100vh;
+}
+header {
+	width: 240px;
+	padding: 30px;
+	position: absolute;
+	background: #f4f4f4;
+	padding-bottom: 100px;
+/*	height: 150%;*/
+}
+section {
+	position: fixed;
+	margin-left: 320px;
+}
+.color-base, body {
+	color: #717171;
+}
+.color-accent, a {
+	color: #e05433;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #9f0000;
+}
+ul {
+	padding-left: 0px;
+}
+li {
+	list-style: none;
+}
+#ubrandme-logo {
+	width: 100%;
+	opacity: inherit;
+	margin: inherit;
+}
+h1, li {
+	font-weight: bold;
+}
+#slogan {
+	font-style: italic;
+}
+img {
+/*	width: 90px;*/
+	opacity: 0.2;
+	margin: 10px;
+	}
+img:hover {
+	opacity: 1.0;
+}
