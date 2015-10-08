@@ -2,7 +2,9 @@
 body {
     margin: 0em;
     font-family: Muli, Helvetica, Arial, sans-serif;
-}
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-top: 0px;}
 header, section {
 	overflow: auto;
 	height: 100vh;
@@ -29,24 +31,26 @@ h1, h2, #ubm-logo, #slogan, #bio, #contact-links {
 }
 h1 {
     color: #575757;
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1.5em;
     margin-top: 0px;
 }
 h2 {
-    font-size: .8em;
+    font-size: 1em;
     line-height: 1.5em;
     font-weight: 400;
     margin-top: 0px;
 }
+/*
 p {
     font-size: 0.8em;
     line-height: 1.5em;
     margin-top: 0px;
 }
+*/
 #contact-links {
     margin-top: 0px;
-    font-size: .8em;
+    font-size: 1em;
 }
 li {
 	list-style: none;
@@ -66,11 +70,10 @@ ul {
 	margin-top: 30px;
     opacity: inherit;
     width: auto;
-
 }
 #slogan {
     font-family: Lato, Helvetica, Arial, sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 400;
 	font-style: italic;
 }
