@@ -1,5 +1,6 @@
 /*——————STRUCTURE——————*/
 
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:700italic,400italic);
 
 *,
 *:before,
@@ -39,8 +40,10 @@ a {
 	color: #0062b5;
 }
 h1, h2, h3 {
-	font-family: "Droid Serif", cursive;
-	font-weight: 400;
+    font-family: "Droid Serif", serif;
+    font-style: italic;
+/*    letter-spacing: 1px;*/
+    font-weight: 400;
 	line-height: 1.5em;
 	font-size: 1.5em;
 }
@@ -55,42 +58,63 @@ p {
 #icons {
 }
 strong {
-	font-weight: 800, bold;
+	font-weight: 700, bold;
 }
+/*
 .red {
 	color: crimson;
 }
 summary::-webkit-details-marker {
   display: none;
 }
+*/
+
 
 /*——————HEADER——————*/
 
 
+
 header {
 	background-color: darkgrey;
-	background-image: url(../images/background.png);
 	background-size: cover;
 	background-repeat: no-repeat;
     padding: 5em 0;
 	width: 100%;
 }
+header.main {
+	background-image: url(../images/background.png);
+}
+header.craft {
+	background-image: url(../images/095copy.jpg);
+}
+header.trad {
+	background-image: url(../images/152copy.jpg);
+}
+header.soph {
+	background-image: url(../images/090copy.jpg);
+}
+header img {
+    margin-top: 1em;
+}
 header #title {
 	width: 30em;
 	color: #ffffff;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.6);
 	padding: 2em;
 }
 header #title h1 {
 	text-align: center;
+    margin-top: 1em;
 }
+
 
 
 /*——————NAVIGATION——————*/
 
 
+
 nav {
-	margin: 4em auto;
+	margin: 1.8em auto;
 	top: 0;
 }
 nav .cta {
@@ -105,23 +129,32 @@ nav h2 {
 	opacity: .5;
 	font-size: 1.5em;
 	text-align: center;
-	padding: 3.5em 0;
+	padding: 4em 0;
 }
 nav h2:hover {
 	opacity: 1;
 }
+nav h2.active {
+	opacity: 1;
+}
 
 nav #craftsmanship {
-	background-image: url(../images/CTA_0000_Craftmanship-normal.png);
+	background-image: url(../images/CTA_0000_craftmanship-normal.png);
 }
 nav #craftsmanship:hover {
-	background-image: url(../images/CTA_0001_Craftmanship-hover.png);
+	background-image: url(../images/CTA_0001_craftmanship-hover.png);
+}
+nav #craftsmanship-active {
+	background-image: url(../images/CTA_0001_craftmanship-hover.png);
 }
 
 nav #tradition {
 	background-image: url(../images/CTA_0002_tradition-normal.png);
 }
 nav #tradition:hover {
+	background-image: url(../images/CTA_0003_tradition-hover.png);
+}
+nav #tradition-active {
 	background-image: url(../images/CTA_0003_tradition-hover.png);
 }
 
@@ -131,9 +164,24 @@ nav #sophisticated {
 nav #sophisticated:hover {
 	background-image: url(../images/CTA_0005_sophisticated-hover.png);
 }
+nav #sophisticated-active {
+	background-image: url(../images/CTA_0005_sophisticated-hover.png);
+}
+
+
+
+/*——————PRODUCTS——————*/
+
+
+#products img {
+/*    display: inline-block;*/
+    width: 100%;
+    margin: 1em 0;
+}
 
 
 /*——————ABOUT——————*/
+
 
 
 #about {
@@ -151,7 +199,9 @@ nav #sophisticated:hover {
 }
 
 
+
 /*——————QUESTIONS——————*/
+
 
 
 #questions {
@@ -164,7 +214,9 @@ nav #sophisticated:hover {
 }
 
 
+
 /*——————FOLLOW——————*/
+
 
 
 footer {
