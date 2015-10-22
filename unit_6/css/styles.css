@@ -1,0 +1,178 @@
+/*——————STRUCTURE——————*/
+
+
+*,
+*:before,
+*:after {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-size: 1em;
+}
+.cf::before, .cf::after {
+	content: " "; 
+    clear: both; 
+    display: block; 
+    visibility: hidden;
+	position: relative;
+    height: 0px;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	font-size: 18px;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 60em;
+}
+.one-col {
+	width: 33%;
+	display: inline-block;
+}
+.two-col {
+	width: 64%;
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+	color: #0062b5;
+}
+h1, h2, h3 {
+	font-family: "Droid Serif", cursive;
+	font-weight: 400;
+	line-height: 1.5em;
+	font-size: 1.5em;
+}
+h3 {
+	margin-bottom: 1em;
+}
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 0 0 1.5em 0;
+}
+#icons {
+}
+strong {
+	font-weight: 800, bold;
+}
+.red {
+	color: crimson;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/*——————HEADER——————*/
+
+
+header {
+	background-color: darkgrey;
+	background-image: url(/images/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+    padding: 5em 0;
+	width: 100%;
+}
+header #title {
+	width: 30em;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 2em;
+}
+header #title h1 {
+	text-align: center;
+}
+
+
+/*——————NAVIGATION——————*/
+
+
+nav {
+	margin: 4em auto;
+	top: 0;
+}
+nav .cta {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+nav h2 {
+	font-family: "Droid Serif", cursive;
+	font-weight: 400;
+	color: #ffffff;
+	opacity: .5;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 3.5em 0;
+}
+nav h2:hover {
+	opacity: 1;
+}
+
+nav #craftsmanship {
+	background-image: url(/images/CTA_0000_Craftmanship-normal.png);
+}
+nav #craftsmanship:hover {
+	background-image: url(/images/CTA_0001_Craftmanship-hover.png);
+}
+
+nav #tradition {
+	background-image: url(/images/CTA_0002_tradition-normal.png);
+}
+nav #tradition:hover {
+	background-image: url(/images/CTA_0003_tradition-hover.png);
+}
+
+nav #sophisticated {
+	background-image: url(/images/CTA_0004_sophisticated-normal.png);
+}
+nav #sophisticated:hover {
+	background-image: url(/images/CTA_0005_sophisticated-hover.png);
+}
+
+
+/*——————ABOUT——————*/
+
+
+#about {
+/*	background-color: cornsilk;*/
+	border-top: 2px #ccc solid;
+	padding: 2em 0 1em 0;
+}
+#about img {
+	float: left;
+	padding: .5em;
+	border: 2px #ccc solid;
+}
+#about div {
+	float: right;
+}
+
+
+/*——————QUESTIONS——————*/
+
+
+#questions {
+	padding: 2em 0;
+	text-align: center;
+	border-top: 2px #ccc solid;
+}
+#questions img {
+	height: 2em;
+}
+
+
+/*——————FOLLOW——————*/
+
+
+footer {
+	padding: 2em 0;
+	text-align: center;
+	border-top: 2px #ccc solid;
+}
+footer img {
+	height: 3em;
+	padding: 0 1em;
+}
