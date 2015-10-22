@@ -112,10 +112,10 @@ nav h2:hover {
 }
 
 nav #craftsmanship {
-	background-image: url(../images/CTA_0000_craftmanship-normal.png);
+	background-image: url(../images/CTA_0000_Craftmanship-normal.png);
 }
 nav #craftsmanship:hover {
-	background-image: url(../images/CTA_0001_craftmanship-hover.png);
+	background-image: url(../images/CTA_0001_Craftmanship-hover.png);
 }
 
 nav #tradition {
