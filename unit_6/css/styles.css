@@ -69,7 +69,7 @@ summary::-webkit-details-marker {
 
 header {
 	background-color: darkgrey;
-	background-image: url(/images/background.png);
+	background-image: url(../images/background.png);
 	background-size: cover;
 	background-repeat: no-repeat;
     padding: 5em 0;
@@ -112,24 +112,24 @@ nav h2:hover {
 }
 
 nav #craftsmanship {
-	background-image: url(/images/CTA_0000_craftmanship-normal.png);
+	background-image: url(../images/CTA_0000_craftmanship-normal.png);
 }
 nav #craftsmanship:hover {
-	background-image: url(/images/CTA_0001_craftmanship-hover.png);
+	background-image: url(../images/CTA_0001_craftmanship-hover.png);
 }
 
 nav #tradition {
-	background-image: url(/images/CTA_0002_tradition-normal.png);
+	background-image: url(../images/CTA_0002_tradition-normal.png);
 }
 nav #tradition:hover {
-	background-image: url(/images/CTA_0003_tradition-hover.png);
+	background-image: url(../images/CTA_0003_tradition-hover.png);
 }
 
 nav #sophisticated {
-	background-image: url(/images/CTA_0004_sophisticated-normal.png);
+	background-image: url(../images/CTA_0004_sophisticated-normal.png);
 }
 nav #sophisticated:hover {
-	background-image: url(/images/CTA_0005_sophisticated-hover.png);
+	background-image: url(../images/CTA_0005_sophisticated-hover.png);
 }
 
 
